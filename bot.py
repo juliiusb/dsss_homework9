@@ -50,7 +50,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 
 
 def main() -> None:
-    API_TOKEN = "8172124087:AAGBpA1PQSqASA41erLmqGrWY_A645djugY"
+    API_TOKEN = ""
     
     app = Application.builder().token(API_TOKEN).build()
     conv_handler = ConversationHandler(
